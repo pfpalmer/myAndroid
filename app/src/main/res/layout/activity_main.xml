@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/rollButton"
         android:layout_width="0dp"
         android:layout_height="41dp"
         android:layout_marginStart="96dp"
@@ -29,7 +29,7 @@
         android:layout_marginBottom="24dp"
         android:max="10"
         android:progress="3"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/rollButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -42,8 +42,7 @@
         android:backgroundTint="@android:color/darker_gray"
         android:text="How Many"
         app:layout_constraintBottom_toTopOf="@+id/seekBar"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:backgroundTint="@android:color/darker_gray" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <View
         android:id="@+id/divider"
